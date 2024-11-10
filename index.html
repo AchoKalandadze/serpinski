@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chaos Game</title>
+</head>
+<body>
+    <a href="https://www.abzianidze.ge/">Back</a>   
+<h1>A ch(a)os Game</h1> 
+<canvas id="canvas" height="400px" width ="400px" ></canvas>
+<h1 id="maxdots"></h1>
+<input type="number" max="20000" id="numberInput">
+<br>
+<br>
+<div class="btns">
+    <!-- <button id="makeFirstRandomDot" onclick="makeFirstRandomDot()">put random dot</button> -->
+    <div class="botBtns">
+        <button id="animate" onclick="start()">animate</button>
+        <button id="stop" onclick="stop()">stop</button>
+        <button onclick="reset()"id="clear">clear</button>
+    </div>
+    <div class="operations">
+        <button onclick="minus(1000)"class="operation">-1000</button>
+        <button onclick="minus(100)"class="operation">-100</button>
+        <button onclick="minus(1)"class="operation">-1</button>
+        <button onclick="cosmos(1)" class="operation">+1</button>
+        <button onclick="cosmos(100)" class="operation">+100</button>
+        <button onclick="cosmos(1000)" class="operation">+1000</button>
+    </div>
+    <a id="dots"> Dots: 0
+    </a>
+    
+</div>
+</body>
+<script src="main.js"></script>
+</html>

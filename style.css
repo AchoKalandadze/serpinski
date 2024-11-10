@@ -1,0 +1,20 @@
+/* #canvas {
+        background-color: rgb(35, 224, 231);
+} */
+#makeFirstRandomDot {
+    margin-bottom: 20px;
+}
+.operations {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.botBtns {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    padding-bottom: 20px;
+}
+
